@@ -25,7 +25,7 @@ class Student(Person):
 
         return sum(self.grades) / len(self.grades)
         
-    # Introduce student
+    # Introduce student essai n 1
     def introduce(self):
         ret = super().introduce()
         ret += "I am a student."
